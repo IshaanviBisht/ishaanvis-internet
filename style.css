@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comic+Relief:wght@400;700&family=Henny+Penny&family=VT323&display=swap');
+
+@keyframes pop {
+    from {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.95);
+    }
+}
+
+.img-popinoutanim {
+    animation: pop 1s ease-in-out infinite alternate;
+}
+
 body {
     background-image: url("images/background-img.jpg");
     background-repeat: repeat;
@@ -42,8 +62,8 @@ nav {
     grid-row: 3/4;
     grid-column: 1/2;
     max-height: max-content;
-    font-family: "Caveat Brush", sans-serif;
-    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -63,9 +83,9 @@ main {
     grid-row: 3/4;
     grid-column: 2/3;
     max-height: max-content;
-    font-family: "Caveat Brush", sans-serif;
+    font-family: "Comic Relief", system-ui;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 footer {
@@ -78,5 +98,14 @@ footer {
 
 .tamaNOTchi {
     align-items: center;
-    margin: 50px ;
+    margin: 50px;
+    font-size: 20px;
+    font-family: "VT323", monospace;
+}
+
+.navtitle {
+    text-align: center; 
+    margin: 0; 
+    font-size: 20px; 
+    text-decoration: underline;
 }
