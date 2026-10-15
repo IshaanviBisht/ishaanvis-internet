@@ -14,6 +14,7 @@ I learnt through the way and hand coded it most of it.
 </ul>
 
 **AI USAGE**
+
 I used ChatGPT to help me debug my project when I was extremely stuck and I also used it to help me suggest a few names for my website. 
 
 Thank you!
