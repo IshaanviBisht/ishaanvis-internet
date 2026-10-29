@@ -20,5 +20,6 @@ I know it will turn out amazing because I made it w/ so much love!!!! And, my CS
 **AI USAGE**
 
 I used ChatGPT to help me debug my project when I was extremely stuck and I also used it to help me suggest a few names for my website. 
+I also used it to generate a few ideas for me and help me in the text. 
 
 Thank you!
